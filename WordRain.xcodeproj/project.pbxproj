@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA12F8B729C772140003D5EF /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = FA781EA629C76B4D00032EDA /* test.json */; };
+		FA12F8B829C772170003D5EF /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = FA781EA429C76B0B00032EDA /* sample.json */; };
+		FA12F8BE29C82FB00003D5EF /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12F8BD29C82FB00003D5EF /* Config.swift */; };
+		FA12F8C029C830970003D5EF /* Chars.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12F8BF29C830970003D5EF /* Chars.swift */; };
+		FA12F8C229C8367B0003D5EF /* CharRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12F8C129C8367B0003D5EF /* CharRect.swift */; };
+		FA12F8C429C83A2D0003D5EF /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12F8C329C83A2D0003D5EF /* Cell.swift */; };
+		FA12F8C629C83E700003D5EF /* CellsLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12F8C529C83E700003D5EF /* CellsLayer.swift */; };
+		FA12F8CA29C84CB90003D5EF /* CellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12F8C929C84CB90003D5EF /* CellTests.swift */; };
+		FA12F8CB29C84CF70003D5EF /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12F8C329C83A2D0003D5EF /* Cell.swift */; };
+		FA12F8CC29C84D470003D5EF /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12F8BD29C82FB00003D5EF /* Config.swift */; };
+		FA12F8CD29C8516C0003D5EF /* CharRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12F8C129C8367B0003D5EF /* CharRect.swift */; };
+		FA12F8CE29C851830003D5EF /* Chars.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12F8BF29C830970003D5EF /* Chars.swift */; };
+		FA50E0E129C8A429000E032B /* WindowRainsLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50E0E029C8A429000E032B /* WindowRainsLayer.swift */; };
+		FA50E0E329C8ABFE000E032B /* FallingCellLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50E0E229C8ABFE000E032B /* FallingCellLayer.swift */; };
+		FA50E0E529C8B9B5000E032B /* imageRGB.json in Resources */ = {isa = PBXBuildFile; fileRef = FA50E0E429C8B9B5000E032B /* imageRGB.json */; };
+		FA50E0E729C95B74000E032B /* CharsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50E0E629C95B74000E032B /* CharsTests.swift */; };
+		FA781E8D29C7430700032EDA /* WordRainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA781E8C29C7430700032EDA /* WordRainView.swift */; };
+		FA781E9629C7533F00032EDA /* WordRainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA781E9529C7533F00032EDA /* WordRainTests.swift */; };
+		FA781E9B29C7580900032EDA /* JSONReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA781E9A29C7580900032EDA /* JSONReaderTests.swift */; };
+		FA781E9D29C75A7A00032EDA /* JSONReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA781E9C29C75A7A00032EDA /* JSONReader.swift */; };
+		FA781EA329C76A8800032EDA /* JSONReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA781E9C29C75A7A00032EDA /* JSONReader.swift */; };
+		FA781EA729C76B4D00032EDA /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = FA781EA629C76B4D00032EDA /* test.json */; };
+		FA781EA929C76C8000032EDA /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = FA781EA429C76B0B00032EDA /* sample.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA12F8BD29C82FB00003D5EF /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		FA12F8BF29C830970003D5EF /* Chars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chars.swift; sourceTree = "<group>"; };
+		FA12F8C129C8367B0003D5EF /* CharRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharRect.swift; sourceTree = "<group>"; };
+		FA12F8C329C83A2D0003D5EF /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		FA12F8C529C83E700003D5EF /* CellsLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellsLayer.swift; sourceTree = "<group>"; };
+		FA12F8C929C84CB90003D5EF /* CellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTests.swift; sourceTree = "<group>"; };
+		FA50E0E029C8A429000E032B /* WindowRainsLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowRainsLayer.swift; sourceTree = "<group>"; };
+		FA50E0E229C8ABFE000E032B /* FallingCellLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingCellLayer.swift; sourceTree = "<group>"; };
+		FA50E0E429C8B9B5000E032B /* imageRGB.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = imageRGB.json; sourceTree = SOURCE_ROOT; };
+		FA50E0E629C95B74000E032B /* CharsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharsTests.swift; sourceTree = "<group>"; };
+		FA781E8029C740CF00032EDA /* WordRain.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordRain.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA781E8C29C7430700032EDA /* WordRainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordRainView.swift; sourceTree = "<group>"; };
+		FA781E9329C7533F00032EDA /* WordRainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordRainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA781E9529C7533F00032EDA /* WordRainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordRainTests.swift; sourceTree = "<group>"; };
+		FA781E9A29C7580900032EDA /* JSONReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONReaderTests.swift; sourceTree = "<group>"; };
+		FA781E9C29C75A7A00032EDA /* JSONReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONReader.swift; sourceTree = "<group>"; usesTabs = 0; };
+		FA781EA429C76B0B00032EDA /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = sample.json; path = ../sample.json; sourceTree = "<group>"; usesTabs = 0; };
+		FA781EA629C76B4D00032EDA /* test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA781E7D29C740CF00032EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA781E9029C7533F00032EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA781E7629C740CF00032EDA = {
+			isa = PBXGroup;
+			children = (
+				FA781E8229C740CF00032EDA /* WordRain */,
+				FA781E9429C7533F00032EDA /* WordRainTests */,
+				FA781E8129C740CF00032EDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA781E8129C740CF00032EDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA781E8029C740CF00032EDA /* WordRain.saver */,
+				FA781E9329C7533F00032EDA /* WordRainTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA781E8229C740CF00032EDA /* WordRain */ = {
+			isa = PBXGroup;
+			children = (
+				FA781EA429C76B0B00032EDA /* sample.json */,
+				FA781E8C29C7430700032EDA /* WordRainView.swift */,
+				FA50E0E429C8B9B5000E032B /* imageRGB.json */,
+				FA781E9C29C75A7A00032EDA /* JSONReader.swift */,
+				FA12F8BD29C82FB00003D5EF /* Config.swift */,
+				FA12F8BF29C830970003D5EF /* Chars.swift */,
+				FA12F8C129C8367B0003D5EF /* CharRect.swift */,
+				FA12F8C329C83A2D0003D5EF /* Cell.swift */,
+				FA12F8C529C83E700003D5EF /* CellsLayer.swift */,
+				FA50E0E029C8A429000E032B /* WindowRainsLayer.swift */,
+				FA50E0E229C8ABFE000E032B /* FallingCellLayer.swift */,
+			);
+			path = WordRain;
+			sourceTree = "<group>";
+		};
+		FA781E9429C7533F00032EDA /* WordRainTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA50E0E629C95B74000E032B /* CharsTests.swift */,
+				FA12F8C929C84CB90003D5EF /* CellTests.swift */,
+				FA781E9A29C7580900032EDA /* JSONReaderTests.swift */,
+				FA781E9529C7533F00032EDA /* WordRainTests.swift */,
+				FA781EA629C76B4D00032EDA /* test.json */,
+			);
+			path = WordRainTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FA781E7B29C740CF00032EDA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FA781E7F29C740CF00032EDA /* WordRain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA781E8929C740CF00032EDA /* Build configuration list for PBXNativeTarget "WordRain" */;
+			buildPhases = (
+				FA781E7B29C740CF00032EDA /* Headers */,
+				FA781E7C29C740CF00032EDA /* Sources */,
+				FA781E7D29C740CF00032EDA /* Frameworks */,
+				FA781E7E29C740CF00032EDA /* Resources */,
+				FA781E8E29C74D2A00032EDA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordRain;
+			productName = WordRain;
+			productReference = FA781E8029C740CF00032EDA /* WordRain.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+		FA781E9229C7533F00032EDA /* WordRainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA781E9729C7533F00032EDA /* Build configuration list for PBXNativeTarget "WordRainTests" */;
+			buildPhases = (
+				FA781E8F29C7533F00032EDA /* Sources */,
+				FA781E9029C7533F00032EDA /* Frameworks */,
+				FA781E9129C7533F00032EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordRainTests;
+			productName = WordRainTests;
+			productReference = FA781E9329C7533F00032EDA /* WordRainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA781E7729C740CF00032EDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FA781E7F29C740CF00032EDA = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+					FA781E9229C7533F00032EDA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = FA781E7A29C740CF00032EDA /* Build configuration list for PBXProject "WordRain" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA781E7629C740CF00032EDA;
+			productRefGroup = FA781E8129C740CF00032EDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA781E7F29C740CF00032EDA /* WordRain */,
+				FA781E9229C7533F00032EDA /* WordRainTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA781E7E29C740CF00032EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA781EA929C76C8000032EDA /* sample.json in Resources */,
+				FA12F8B729C772140003D5EF /* test.json in Resources */,
+				FA50E0E529C8B9B5000E032B /* imageRGB.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA781E9129C7533F00032EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA781EA729C76B4D00032EDA /* test.json in Resources */,
+				FA12F8B829C772170003D5EF /* sample.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FA781E8E29C74D2A00032EDA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# open -W $CODESIGNING_FOLDER_PATH\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA781E7C29C740CF00032EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA781E9D29C75A7A00032EDA /* JSONReader.swift in Sources */,
+				FA781E8D29C7430700032EDA /* WordRainView.swift in Sources */,
+				FA12F8C229C8367B0003D5EF /* CharRect.swift in Sources */,
+				FA50E0E129C8A429000E032B /* WindowRainsLayer.swift in Sources */,
+				FA12F8C629C83E700003D5EF /* CellsLayer.swift in Sources */,
+				FA12F8BE29C82FB00003D5EF /* Config.swift in Sources */,
+				FA50E0E329C8ABFE000E032B /* FallingCellLayer.swift in Sources */,
+				FA12F8C029C830970003D5EF /* Chars.swift in Sources */,
+				FA12F8C429C83A2D0003D5EF /* Cell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA781E8F29C7533F00032EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA781E9B29C7580900032EDA /* JSONReaderTests.swift in Sources */,
+				FA12F8CA29C84CB90003D5EF /* CellTests.swift in Sources */,
+				FA12F8CB29C84CF70003D5EF /* Cell.swift in Sources */,
+				FA12F8CD29C8516C0003D5EF /* CharRect.swift in Sources */,
+				FA781EA329C76A8800032EDA /* JSONReader.swift in Sources */,
+				FA781E9629C7533F00032EDA /* WordRainTests.swift in Sources */,
+				FA12F8CC29C84D470003D5EF /* Config.swift in Sources */,
+				FA50E0E729C95B74000E032B /* CharsTests.swift in Sources */,
+				FA12F8CE29C851830003D5EF /* Chars.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA781E8729C740CF00032EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA781E8829C740CF00032EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA781E8A29C740CF00032EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = WordRain.WordRainView;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TittiTestApp.WordRain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		FA781E8B29C740CF00032EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = WordRain.WordRainView;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TittiTestApp.WordRain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+		FA781E9829C7533F00032EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TittiTestApp.WordRainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FA781E9929C7533F00032EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TittiTestApp.WordRainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA781E7A29C740CF00032EDA /* Build configuration list for PBXProject "WordRain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA781E8729C740CF00032EDA /* Debug */,
+				FA781E8829C740CF00032EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA781E8929C740CF00032EDA /* Build configuration list for PBXNativeTarget "WordRain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA781E8A29C740CF00032EDA /* Debug */,
+				FA781E8B29C740CF00032EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA781E9729C7533F00032EDA /* Build configuration list for PBXNativeTarget "WordRainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA781E9829C7533F00032EDA /* Debug */,
+				FA781E9929C7533F00032EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA781E7729C740CF00032EDA /* Project object */;
+}
